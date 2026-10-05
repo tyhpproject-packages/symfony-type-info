@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/symfony-type-info",
+    "description": "Tyhp type definitions for symfony/type-info 7.4.17.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "7.4.17",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/symfony-type-info-impl": "~7.4.17.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/symfony-type-info-impl"
+        }
+    }
+}
